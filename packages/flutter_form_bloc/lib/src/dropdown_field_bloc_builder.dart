@@ -163,7 +163,7 @@ class DropdownFieldBlocBuilder<Value> extends StatelessWidget {
             SelectFieldBlocState<Value, dynamic>>(
           bloc: selectFieldBloc,
           builder: (context, fieldState) {
-            final isEnabled = fiedlfieldBlocIsEnabled(
+            final isEnabled = fieldBlocIsEnabled(
               isEnabled: this.isEnabled,
               enableOnlyWhenFormBlocCanSubmit: enableOnlyWhenFormBlocCanSubmit,
               fieldBlocState: fieldState,
